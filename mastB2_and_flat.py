@@ -145,6 +145,8 @@ for y in range(height + 1):
     axs[1].axhline(y, color='gray', linewidth=0.3)
 
 
+axs[1].hlines(y=19, xmin=1, xmax=48, colors='red', linewidth=2, linestyle= '--')
+axs[1].hlines(y=19, xmin=50, xmax=97, colors='red', linewidth=2, linestyle= '--')
 
 
 axs[1].vlines(x=25, ymin=1, ymax=19, colors='black', linewidth=2, linestyle= '--')
